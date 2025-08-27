@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &366357481571796235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 366357481571796229}
+  - component: {fileID: 5082725457018037869}
+  - component: {fileID: 699380535118158320}
+  m_Layer: 0
+  m_Name: PauseScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &366357481571796229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366357481571796235}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -464, y: -3.4211862, z: 18.344725}
+  m_LocalScale: {x: 3.384427, y: 3.384427, z: 3.384427}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5082725457018037869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366357481571796235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd1289ba7a2d6494f9f06a65dd2bea73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseflg: 0
+  PauseButtonObject1: {fileID: 0}
+  PauseButtonObject2: {fileID: 0}
+  PauseButtonObject3: {fileID: 0}
+  PauseButtonLight: {fileID: 0}
+  PanelObject: {fileID: 0}
+  ButtonObject1: {fileID: 0}
+  ButtonObject2: {fileID: 0}
+  ButtonObject3: {fileID: 0}
+--- !u!114 &699380535118158320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366357481571796235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: c26e88c0d79790e4483710c7534b4b8e,
+    type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5769b103-fbfc-4502-ba4d-423f031142e6
+    m_ActionName: Title/Start[/XInputControllerWindows/buttonEast,/XInputControllerWindows/buttonSouth,/XInputControllerWindows/start]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2d2118b0-7b6f-4ad8-bdec-0c74b2cc4cb0
+    m_ActionName: Title/Beat[/XInputControllerWindows/buttonEast,/XInputControllerWindows/buttonSouth,/XInputControllerWindows/start]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2789c97e-f61e-4cb5-88ce-26af2d20c1f9
+    m_ActionName: Player/Beat[/XInputControllerWindows/buttonEast]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 86bf70b2-0423-4696-b464-df899e772775
+    m_ActionName: Player/MoveRight[/XInputControllerWindows/leftStick/right]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f1474c62-fb79-4c9c-b90c-62b33334f2da
+    m_ActionName: Player/MoveLeft[/XInputControllerWindows/leftStick]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e30a9eed-90c1-4b6c-89e9-0ab475d5c11d
+    m_ActionName: Player/Jump[/XInputControllerWindows/buttonSouth]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a0e4e37b-f906-4223-993a-7d7d0c7d5b0b
+    m_ActionName: Player/The_World[/XInputControllerWindows/start]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 49b034df-a859-49c6-9e71-7f8a1ce853f5
+    m_ActionName: StageSelect/Right[/XInputControllerWindows/dpad/right]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: bb0c8e1a-f8f8-4d9e-8ed8-e8076d19abf9
+    m_ActionName: StageSelect/Left[/XInputControllerWindows/dpad/left]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a5338fc0-054b-4409-a3fc-7bac1caf8bf1
+    m_ActionName: StageSelect/Kettei[/XInputControllerWindows/buttonEast]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ced8acf9-7681-4857-a568-c3b1c3885e9a
+    m_ActionName: StageSelect/Down[/XInputControllerWindows/dpad/down]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 93278089-ba38-4d49-89cc-95cb8a4fbf50
+    m_ActionName: StageSelect/Up[/XInputControllerWindows/dpad/up]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}

@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8373548834956731457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3591158942408424547}
+  m_Layer: 0
+  m_Name: Bell
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3591158942408424547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8373548834956731457}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0.030500002, z: 0}
+  m_LocalScale: {x: 0.036423996, y: 0.036424037, z: 0.036423996}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6663498032186040167}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5065087625853731423
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3591158942408424547}
+    m_Modifications:
+    - target: {fileID: 1887938962321546552, guid: 752b3244d1ec8904a8de693956390d40,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887938962321546552, guid: 752b3244d1ec8904a8de693956390d40,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887938962321546552, guid: 752b3244d1ec8904a8de693956390d40,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887938962321546552, guid: 752b3244d1ec8904a8de693956390d40,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887938962321546552, guid: 752b3244d1ec8904a8de693956390d40,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.010981569
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887938962321546552, guid: 752b3244d1ec8904a8de693956390d40,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7275416
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887938962321546552, guid: 752b3244d1ec8904a8de693956390d40,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.20590839
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887938962321546552, guid: 752b3244d1ec8904a8de693956390d40,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887938962321546552, guid: 752b3244d1ec8904a8de693956390d40,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887938962321546552, guid: 752b3244d1ec8904a8de693956390d40,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887938962321546552, guid: 752b3244d1ec8904a8de693956390d40,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887938962321546552, guid: 752b3244d1ec8904a8de693956390d40,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887938962321546552, guid: 752b3244d1ec8904a8de693956390d40,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887938962321546552, guid: 752b3244d1ec8904a8de693956390d40,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887938962321546557, guid: 752b3244d1ec8904a8de693956390d40,
+        type: 3}
+      propertyPath: m_Name
+      value: Eff_RingBell
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 752b3244d1ec8904a8de693956390d40, type: 3}
+--- !u!4 &6663498032186040167 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1887938962321546552, guid: 752b3244d1ec8904a8de693956390d40,
+    type: 3}
+  m_PrefabInstance: {fileID: 5065087625853731423}
+  m_PrefabAsset: {fileID: 0}
