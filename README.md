@@ -1,3 +1,4 @@
+script保存先：Assets/YuniLab_Alpha/Alpha/Script
 Garasuzu
 🎮 特徴
 
