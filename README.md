@@ -1,5 +1,6 @@
 script保存先：Assets/YuniLab_Alpha/Alpha/Script
-Garasuzu
+
+arasuzu
 🎮 特徴
 
 ガラスが連鎖で割れる気持ちよさ
